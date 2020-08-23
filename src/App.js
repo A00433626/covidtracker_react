@@ -131,18 +131,18 @@ class App extends Component {
             zoom={this.state.mapZoom}
           />
         </div>
-        <Card className="app__right">
+        {/*  <Card className="app__right">
           <Card.Body>
-            {/*  <div className="app__information">
+             <div className="app__information">
               <h3>Live Cases by Country</h3>
              
                 <Table countries={this.state.tableData} />
                <h3>Worldwide new {this.state.caseType}</h3>
               
                <LineGraph casesType={this.state.caseType} 
-           </div>*/}
+           </div>
           </Card.Body>
-        </Card>
+        </Card>*/}
       </div>
     );
   }
